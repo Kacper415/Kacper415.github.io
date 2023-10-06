@@ -1,0 +1,19 @@
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace
+
+};
+body 
+{
+    background-color:aquamarine;
+background-image: url("marmurek.webp");
+background-position: center;
+}
+.center-text {
+    text-align: center;
+}
+body {
+    border-style: groove;
+    border-width: 50;
+}
