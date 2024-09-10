@@ -17,3 +17,10 @@ body {
     border-style: groove;
     border-width: 50;
 }
+img
+
+{
+   content: url("kciuk.png");
+    transform: translate(50px,20px);
+}
+
