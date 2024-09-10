@@ -21,6 +21,9 @@ img
 
 {
    content: url("kciuk.png");
+    width:105px;
+ height:77px;
+margin:2mm;
     transform: translate(50px,20px);
 }
 
