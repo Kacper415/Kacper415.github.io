@@ -21,7 +21,7 @@ body {
 .img-kciuk{
 width: 300px;
 legth: 200px;
-  image: url(kciuk.png);
+  image: url("kciuk.png");
    size: 100%;
 }
 }
