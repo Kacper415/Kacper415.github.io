@@ -20,6 +20,7 @@ body {
 .img-kciuk{
 width: 300px;
 legth: 200px;
-    
+    background-image: url(kciuk.png);
+    backround-size: 100%;
 }
 
