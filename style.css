@@ -17,11 +17,12 @@ body {
     border-style: groove;
     border-width: 50;
 }
-body {
+
 .img-kciuk{
 width: 300px;
 legth: 200px;
   background-image: url("kciuk.png");
    background-size: 100%;
+    background-position: center;
 }
-}
+
