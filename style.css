@@ -3,7 +3,7 @@ h1 {
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace
 
-};
+}
 body 
 {
     background-color:aquamarine;
@@ -17,10 +17,11 @@ body {
     border-style: groove;
     border-width: 50;
 }
+body {
 .img-kciuk{
 width: 300px;
 legth: 200px;
     background-image: url(kciuk.png);
     backround-size: 100%;
 }
-
+}
