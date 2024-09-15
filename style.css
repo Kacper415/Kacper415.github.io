@@ -8,14 +8,12 @@ body
 {
     background-color:aquamarine;
 background-image: url("marmurek.webp");
-background-position: center;
+background-position: center; 
+    border-style: groove;
+    border-width: 50;
 }
 .center-text {
     text-align: center;
-}
-body {
-    border-style: groove;
-    border-width: 50;
 }
 
 .img-kciuk{
