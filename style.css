@@ -25,7 +25,7 @@ background-position: center;
 .image-container {
     overflow: hidden;
     width: 100%;
-    max-width: 600px; /* Maksymalna szerokość kontenera */
+    max-width: 200px; /* Maksymalna szerokość kontenera */
     height: auto;
 }
 
