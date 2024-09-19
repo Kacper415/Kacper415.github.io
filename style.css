@@ -21,7 +21,7 @@ background-position: center;
 .Obrazek{
 width:500px;
     height:200px;
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
