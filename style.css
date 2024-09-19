@@ -20,8 +20,10 @@ background-position: center;
 }
 .Obrazek{
 width:500px;
-    height:300px;
+    height:200px;
     background-position: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .img-kciuk{
