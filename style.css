@@ -20,8 +20,8 @@ background-position: center;
 }
 .Obrazek{
 width:500px;
-    height:400px;
-    background-size: cover;
+    height:200px;
+    background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
