@@ -40,6 +40,57 @@
         </ul>
         <p><u>Imię: Kacper B.</u></p>
         <ul>
+
+<meta charset="UTF-8">
+  <title>Kliknij, aby odtworzyć GIF</title>
+  <style>
+    /* opcjonalnie: zmień kursor na ‚pointer’ */
+    #anim {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Początkowy obrazek -->
+  <img
+    id="anim"
+    src="obrazek.png"
+    alt="Kliknij, żeby odtworzyć"
+  >
+
+  <script>
+    // 2. Podmień tutaj ścieżki do swoich plików
+    const STATIC_IMG    = 'obrazek.png';
+    const ONE_TIME_GIF  = 'pierwszy.gif';
+    const LOOP_GIF      = 'drugi.gif';
+
+    // 3. Podaj ręcznie czas trwania pierwszego GIF-a (w ms)
+    //    Zmierz go np. w edytorze GIF lub na stronie online, sumując czasy klatek.
+    const DURATION_MS = 2500; 
+
+    const imgEl = document.getElementById('anim');
+
+    function handleClick() {
+      // pokaż pierwszy GIF
+      imgEl.src = ONE_TIME_GIF;
+      // zablokuj kolejne kliknięcia
+      imgEl.removeEventListener('click', handleClick);
+
+      // po upływie DURATION_MS zamień na GIF zapętlony
+      setTimeout(() => {
+        imgEl.src = LOOP_GIF;
+      }, DURATION_MS);
+    }
+
+    imgEl.addEventListener('click', handleClick);
+  </script>
+
+
+
+
+
+            
             <p style="text-align:center;"><a href="https://docs.google.com/document/d/1NIk0J0qEOD30jUxDsS7-HPMylUwjUzc7NOUTTPrYV9s/edit">Przydatna strona</a></p></br></ul>
         <div>
            
@@ -58,4 +109,5 @@
  </div>
 </body>
 </html>
+
 
