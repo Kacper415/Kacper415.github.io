@@ -1,133 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CV — Kliknij, aby odtworzyć GIF</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="center-text">
+    <h1><span style="color: blue;">CV</span></h1>
+    <div class="center-text">
+
+ <img src="cjnMxkDEFtTJQi3E8WKVZ1Le9tCqIFdA.jpg" class="Obrazek">
+
+        
+        <u><h3><span style="color:;">Umiejętności informatyczne:</span></h3></u>
+        <ul>
+            <div style="text-align: left;">
+            Podczas edukacji w szkole podstawowej nabyłem umiejętności jak posługiwać 
+            się programem<br/> Tincercard (włacznie z praktycznym drukowaniem drukarką 3D),
+            DroneBlocks,<br/> (mobilna aplikacja do ustalania trasy lotu drona)
+            Gimp i oczywiście opanowałem Scratcha.
+            </div>
+        </ul>
+        <hr>
+        <u><h3><span style="color:green;">Czego bym chciał się nauczyć:</span></h3></u>
+        <ul>
+             <div style="text-align: left;">
+            Bardzo chętnie nauczę się posługiwać programami t.j. python, java.<br/> Chciałbym również
+            zapoznać się z aplikacją, służącą do obrabiania 
+            <br/>zdjęć oraz video . Ciekawi mnie również informatyka techniczna<br/> (elektryka, budowa komputera itp.)
+             </div>
+        </ul>
+        <hr>
+        <u><b><h3><span style="color:red;">Plany na przyszłość:</span></h3></b></u>
+        <ul>
+              <div style="text-align: left;">
+            Moją przyszłość chciałbym powiazać z inżynierią i informatyką,<br/> najchętniej konstruować 
+            np. urządzenia elektryczne. Od zawsze<br/> interesował mnie ten kierunek,<br/> dlatego włożę całą swoją energię
+            i determinację, aby spełnić to marzenie.
+             </div>
+        </ul>
+        <p><u>Imię: Kacper B.</u></p>
+        <ul>
+
+<meta charset="UTF-8">
+  <title>Kliknij, aby odtworzyć GIF</title>
   <style>
-    /* proste style lokalne; możesz przenieść do style.css */
-    .center-text { text-align: center; }
-    img.responsive { max-width: 100%; height: auto; display: block; margin: 0 auto; }
-    /* kursor wskazujący, że element jest klikalny */
-    #anim { cursor: pointer; outline: none; }
-    /* tło strony (przeniesione z Twojego inline style) */
-    body {
-      background-image: url("Bianco-Carrara-marmur-2-1.jpg");
-      background-size: cover;
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    /* opcjonalnie: zmień kursor na ‚pointer’ */
+    #anim {
+      cursor: pointer;
     }
-    /* drobne odstępy */
-    .content { max-width: 800px; margin: 1.2rem auto; padding: 1rem; background: rgba(255,255,255,0.85); border-radius: 10px; }
   </style>
 </head>
 <body>
-  <main class="content center-text" role="main">
-    <h1><span style="color: blue;">CV</span></h1>
 
-    <!-- 1) Obrazek, który klika się aby uruchomić animację -->
-    <img
-      id="anim"
-      class="responsive"
-      src="Bomba.png"
-      alt="Kliknij, aby odtworzyć animację"
-      tabindex="0"
-      aria-label="Kliknij lub naciśnij Enter, aby odtworzyć animację"
-    >
-
-    <!-- Reszta Twojego CV — uporządkowana struktura -->
-    <section aria-labelledby="skills">
-      <h3 id="skills"><u>Umiejętności informatyczne:</u></h3>
-      <div style="text-align: left;">
-        Podczas edukacji w szkole podstawowej nabyłem umiejętności jak posługiwać się programem
-        Tinkercad (włącznie z praktycznym drukowaniem drukarką 3D), DroneBlocks
-        (mobilna aplikacja do ustalania trasy lotu drona), Gimp i Scratch.
-      </div>
-    </section>
-
-    <hr>
-
-    <section aria-labelledby="learn">
-      <h3 id="learn"><u><span style="color:green;">Czego bym chciał się nauczyć:</span></u></h3>
-      <div style="text-align: left;">
-        Bardzo chętnie nauczę się posługiwać programami t.j. Python, Java.
-        Chciałbym również zapoznać się z aplikacją do obróbki zdjęć i video.
-        Ciekawi mnie również informatyka techniczna (elektryka, budowa komputera itp.).
-      </div>
-    </section>
-
-    <hr>
-
-    <section aria-labelledby="plans">
-      <h3 id="plans"><u><b><span style="color:red;">Plany na przyszłość:</span></b></u></h3>
-      <div style="text-align: left;">
-        Moją przyszłość chciałbym powiązać z inżynierią i informatyką, najchętniej konstruować np. urządzenia elektryczne.
-        Od zawsze interesował mnie ten kierunek; włożę całą swoją energię, aby spełnić to marzenie.
-      </div>
-    </section>
-
-    <p><u>Imię: Kacper B.</u></p>
-
-    <p style="text-align:center;">
-      <a href="https://docs.google.com/document/d/1NIk0J0qEOD30jUxDsS7-HPMylUwjUzc7NOUTTPrYV9s/edit">Przydatna strona</a>
-    </p>
-  </main>
+  <!-- 1. Początkowy obrazek -->
+  <img
+    id="anim"
+    src="obrazek.png"
+    alt="Kliknij, żeby odtworzyć"
+  >
 
   <script>
-    // Ścieżki (tak jak podałeś)
+    // 2. Podmień tutaj ścieżki do swoich plików
     const STATIC_IMG    = 'Bomba.png';
     const ONE_TIME_GIF  = 'eksplozja.gif';
     const LOOP_GIF      = 'cat-vibing.gif';
 
-    // Czas trwania "eksplozja.gif" w ms (ustawiłeś 1s)
-    const DURATION_MS = 1000;
+    // 3. Podaj ręcznie czas trwania pierwszego GIF-a (w ms)
+    //    Zmierz go np. w edytorze GIF lub na stronie online, sumując czasy klatek.
+    const DURATION_MS = 1000; 
 
     const imgEl = document.getElementById('anim');
 
-    // Preload gifów żeby ograniczyć opóźnienie przy przełączeniu
-    (function preload() {
-      [ONE_TIME_GIF, LOOP_GIF].forEach(src => {
-        const i = new Image();
-        i.src = src;
-      });
-    })();
-
-    // Obsługa klawiatury (Enter / Space)
-    function keyHandler(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        handleClick();
-      }
-    }
-
-    // Kliknięcie (albo Enter/Space)
     function handleClick() {
-      // jeśli już odtwarzamy, ignoruj
-      if (imgEl.dataset.playing === 'true') return;
-
-      imgEl.dataset.playing = 'true';
-
-      // pokazujemy "eksplozja.gif" - dodajemy cache-buster, żeby mieć pewność że przeglądarka załaduje
-      imgEl.src = ONE_TIME_GIF + '?_=' + Date.now();
-
-      // zablokuj kolejne kliknięcia/wywołania
+      // pokaż pierwszy GIF
+      imgEl.src = ONE_TIME_GIF;
+      // zablokuj kolejne kliknięcia
       imgEl.removeEventListener('click', handleClick);
-      imgEl.removeEventListener('keydown', keyHandler);
 
-      // Po upływie czasu trwania pierwszego GIF-a zamień na GIF zapętlony
+      // po upływie DURATION_MS zamień na GIF zapętlony
       setTimeout(() => {
         imgEl.src = LOOP_GIF;
-        // tu chcemy aby cat-vibing.gif pozostał w pętli - zakładamy, że plik ma pętlę ustawioną
-        // Nie rejestrujemy ponownie eventów (nie wracamy do statycznego obrazu)
       }, DURATION_MS);
     }
 
-    // Podłącz eventy
     imgEl.addEventListener('click', handleClick);
-    imgEl.addEventListener('keydown', keyHandler);
   </script>
+            
+            <p style="text-align:center;"><a href="https://docs.google.com/document/d/1NIk0J0qEOD30jUxDsS7-HPMylUwjUzc7NOUTTPrYV9s/edit">Przydatna strona</a></p></br></ul>
+        <div>
+           
+        </div>
+    </div>
+   <!-- 
+     <div class="img-kciuk"></div>
+     <img src="kciuk-removebg-preview.png" alt="Obraz kciuk" class="moving-image">
+     -->
+    <style>
+        body {
+            background-image: url("Bianco-Carrara-marmur-2-1.jpg");
+            background-size: cover;
+        }
+    </style>
+ </div>
 </body>
 </html>
-
 
