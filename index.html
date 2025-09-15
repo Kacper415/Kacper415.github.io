@@ -56,11 +56,18 @@
 </head>
 <body>
    <h1>Kalkulator</h1>
+<p>
+    <input id="f1" type="text" inputmode="decimal" placeholder="liczba 1">
+    +
+    <input id="f2" type="text" inputmode="decimal" placeholder="liczba 2">
+    =
+    <span id="wynik"></span>
+  </p>
 
-   <p><input id="f1"> + <input id="f2"> = <span id="wynik"></span></p>
-  
-   <button onclick="wyczysc()">Wyczyść</button> 
-   <button onclick="dodaj()">Oblicz</button>
+  <button id="clearBtn">Wyczyść</button>
+  <button id="calcBtn">Oblicz</button>
+
+  <script src="program.js"></script>
 </style>
         </head>
             <body>
@@ -119,6 +126,7 @@
  </div>
 </body>
 </html>
+
 
 
 
